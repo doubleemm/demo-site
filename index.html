@@ -21,7 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <!-- <link rel="stylesheet" href="css/custom.css"> --> 
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,7 +32,8 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="section intro">
+ 
+  <div class="section intro" id="intro">
     <div class="container">
       <div class="row">
         <div class="one-half column" style="margin-top: 10%">
@@ -43,6 +44,50 @@
       </div>
     </div>
   </div>
+
+  <div class="navbar-spacer"></div>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="#" data-popover="#codeNavPopover">Code</a>
+          <div id="codeNavPopover" class="popover">
+            <ul class="popover-list">
+              <li class="popover-item">
+                <a class="popover-link" href="#grid">Grid</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#typography">Typography</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#buttons">Buttons</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#forms">Forms</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#lists">Lists</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#code">Code</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#tables">Tables</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#queries">Queries</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#utilities">Utilities</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="navbar-item"><a class="navbar-link" href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <div class="section images">
     <div class="container">
@@ -65,7 +110,7 @@
     </div>
   </div> 
 
-  <div class="section gallery" style="margin-top: 10%">
+  <div class="section gallery" id="gallery" style="margin-top: 10%">
     <div class="container">
       <h3 class="section-heading">Gallery</h3>
       <div class="row">
@@ -105,6 +150,7 @@
       </div>
     </div>
   </div>
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
